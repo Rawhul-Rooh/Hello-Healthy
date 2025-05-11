@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f9fc;
+  color: #333;
+  margin: 0;
+}
+header {
+  background: #0077b6;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+nav a {
+  color: white;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+main {
+  padding: 2rem;
+}
+h1 {
+  color: #0077b6;
+}
+.service-list {
+  list-style-type: none;
+  padding: 0;
+}
+.service-list li {
+  background: white;
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #001f3f;
+  color: white;
+}
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  background: #0077b6;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+}
